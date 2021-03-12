@@ -13,7 +13,7 @@ tar -xzf openshift-origin-client-tools-v3.6.0-alpha.0-0343989-linux-64bit.tar.gz
 cp openshift-origin-client-tools-v3.6.0-alpha.0-0343989-linux-64bit/oc /usr/local/bin/
 echo OPTIONS="--default-ulimit nofile=1024:4096 --insecure-registry 172.30.0.0/16" >>  /etc/sysconfig/docker
 systemctl restart docker
-echo "****************************************STARTING OKDv3.6.0  CLUSTER*****************************************"
+echo "****************************************STARTING OKDv3.6.0*****************************************"
 oc cluster up --routing-suffix=$ip.nip.io --public-hostname=$hostname
 
 
