@@ -1,0 +1,5 @@
+Centos HVM
+20 GB ebs root volume
+2 CPU
+4 GB Ram atleast
+
